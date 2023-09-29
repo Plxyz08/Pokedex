@@ -19,7 +19,7 @@
       <div class="pokemon-card" v-for="pokemon in pokemonsFiltrados" :key="pokemon.id" @click="mostrarDetalles(pokemon)">
         <div class="pokemon-info">
           <p
-            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: rgb(255, 0, 255); font-size: 30px; font-weight:bold;">
+            style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color:#03a9f4 ; font-size: 30px; font-weight:bold;">
             # {{ pokemon.numero }}</p>
           <p style="color: black;">{{ pokemon.nombre }}</p>
           <img :src="pokemon.imagen" alt="">
